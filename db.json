@@ -44,6 +44,101 @@
       "date": "2019-02-02T23:27:00.000Z",
       "time": "1:00",
       "attendees": []
+    },
+    {
+      "id": 7902189,
+      "user": {
+        "id": "abc123",
+        "name": "John Mclane"
+      },
+      "caterogory": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "John Mclane"
+      },
+      "title": "etest",
+      "description": "testes",
+      "location": "testes",
+      "date": "2020-09-02T19:33:00.000Z",
+      "time": "21:00",
+      "attendees": [],
+      "category": "animal welfare"
+    },
+    {
+      "id": 4051087,
+      "user": {
+        "id": "abc123",
+        "name": "John Mclane"
+      },
+      "caterogory": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "John Mclane"
+      },
+      "title": "etets",
+      "description": "etete",
+      "location": "test",
+      "date": "2020-09-02T19:34:00.000Z",
+      "time": "24:00",
+      "attendees": [],
+      "category": "nature"
+    },
+    {
+      "id": 5969990,
+      "user": {
+        "id": "abc123",
+        "name": "John Mclane"
+      },
+      "caterogory": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "John Mclane"
+      },
+      "title": "test",
+      "description": "test",
+      "location": "test",
+      "date": "2020-09-01T19:38:00.000Z",
+      "time": "21:00",
+      "attendees": [],
+      "category": "animal welfare"
+    },
+    {
+      "id": 5160096,
+      "user": {
+        "id": "abc123",
+        "name": "John Mclane"
+      },
+      "caterogory": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "John Mclane"
+      },
+      "title": "test",
+      "description": "test",
+      "location": "est",
+      "date": "2020-09-02T19:39:00.000Z",
+      "time": "22:00",
+      "attendees": [],
+      "category": "sustainability"
+    },
+    {
+      "id": 1036539,
+      "user": {
+        "id": "abc123",
+        "name": "John Mclane"
+      },
+      "caterogory": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "John Mclane"
+      },
+      "title": "test",
+      "description": "tse",
+      "location": "tests",
+      "date": "2020-09-02T19:39:00.000Z",
+      "time": "22:00",
+      "attendees": [],
+      "category": "education"
     }
   ]
 }

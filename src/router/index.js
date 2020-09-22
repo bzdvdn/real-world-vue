@@ -21,7 +21,7 @@ const routes = [
       import(/* webpackChunkName: "about" */ '../views/EventShow.vue')
   },
   {
-    path: '/event/create',
+    path: '/create',
     name: 'event-create',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
