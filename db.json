@@ -139,6 +139,29 @@
       "time": "22:00",
       "attendees": [],
       "category": "education"
+    },
+    {
+      "id": 6709116,
+      "user": {
+        "user": {
+          "id": "abc123",
+          "name": "John"
+        }
+      },
+      "caterogory": "",
+      "organizer": {
+        "user": {
+          "id": "abc123",
+          "name": "John"
+        }
+      },
+      "title": "ssssssss",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": [],
+      "category": "nature"
     }
   ]
 }
