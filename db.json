@@ -162,6 +162,29 @@
       "time": "",
       "attendees": [],
       "category": "nature"
+    },
+    {
+      "id": 5563967,
+      "user": {
+        "user": {
+          "id": "abc123",
+          "name": "John"
+        }
+      },
+      "caterogory": "",
+      "organizer": {
+        "user": {
+          "id": "abc123",
+          "name": "John"
+        }
+      },
+      "title": "eeee",
+      "description": "eeee",
+      "location": "eeee",
+      "date": "2020-09-01T19:03:00.000Z",
+      "time": "19:00",
+      "attendees": [],
+      "category": "animal welfare"
     }
   ]
 }
