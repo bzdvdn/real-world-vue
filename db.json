@@ -185,6 +185,29 @@
       "time": "19:00",
       "attendees": [],
       "category": "animal welfare"
+    },
+    {
+      "id": 103424,
+      "user": {
+        "user": {
+          "id": "abc123",
+          "name": "John"
+        }
+      },
+      "caterogory": "",
+      "organizer": {
+        "user": {
+          "id": "abc123",
+          "name": "John"
+        }
+      },
+      "title": "Aca mma",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": [],
+      "category": "animal welfare"
     }
   ]
 }
