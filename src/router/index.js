@@ -20,10 +20,13 @@ const routes = [
     props: true,
     component: EventShow,
     beforeEnter(routeTo, routeFrom, next) {
-      store.dispatch('event/fetchEvent', routeTo.params.id).then(event => {
-        routeTo.params.event = event
-        next()
-      })
+      store
+        .dispatch('event/fetchEvent', routeTo.params.id)
+        .then(event => {
+          routeTo.params.event = event
+          next()
+        })
+        .catch(() => next({ name: '404', params: { resource: 'event' } }))
     }
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
@@ -38,6 +41,17 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ '../views/EventCreate.vue')
+  },
+  {
+    path: '/404',
+    name: '404',
+    component: () =>
+      import(/* webpackChunkName: "about" */ '../views/NotFound.vue'),
+    props: true
+  },
+  {
+    path: '*',
+    redirect: { name: '404', params: { resource: 'page' } }
   }
 ]
 
