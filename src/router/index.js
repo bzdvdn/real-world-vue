@@ -26,7 +26,13 @@ const routes = [
           routeTo.params.event = event
           next()
         })
-        .catch(() => next({ name: '404', params: { resource: 'event' } }))
+        .catch(error => {
+          if (error.response && error.response.status == 404) {
+            next({ name: '404', params: { resource: 'event' } })
+          } else {
+            next({ name: 'network-issue' })
+          }
+        })
     }
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
@@ -42,11 +48,19 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ '../views/EventCreate.vue')
   },
+
   {
     path: '/404',
     name: '404',
     component: () =>
       import(/* webpackChunkName: "about" */ '../views/NotFound.vue'),
+    props: true
+  },
+  {
+    path: '/network-issue',
+    name: 'network-issue',
+    component: () =>
+      import(/* webpackChunkName: "about" */ '../views/NetworkIssue.vue'),
     props: true
   },
   {
