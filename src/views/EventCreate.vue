@@ -157,7 +157,7 @@ export default {
       return {
         id: id,
         user: user,
-        caterogory: '',
+        category: '',
         organizer: user,
         title: '',
         description: '',
