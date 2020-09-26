@@ -5,7 +5,10 @@ import store from './store'
 import upperFirst from 'lodash/upperFirst'
 import camelCase from 'lodash/camelCase'
 import Vuelidate from 'vuelidate'
+import DateFilter from './filters/date.js'
 import 'nprogress/nprogress.css'
+
+Vue.filter('date', DateFilter)
 
 Vue.use(Vuelidate)
 
