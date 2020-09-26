@@ -208,6 +208,28 @@
       "time": "",
       "attendees": [],
       "category": "animal welfare"
+    },
+    {
+      "id": 5449073,
+      "user": {
+        "user": {
+          "id": "abc123",
+          "name": "John"
+        }
+      },
+      "caterogory": "nature",
+      "organizer": {
+        "user": {
+          "id": "abc123",
+          "name": "John"
+        }
+      },
+      "title": "asdf",
+      "description": "rrr",
+      "location": "1231",
+      "date": "2020-09-01T09:58:00.000Z",
+      "time": "21:00",
+      "attendees": []
     }
   ]
 }
