@@ -4,7 +4,10 @@ import router from './router'
 import store from './store'
 import upperFirst from 'lodash/upperFirst'
 import camelCase from 'lodash/camelCase'
+import Vuelidate from 'vuelidate'
 import 'nprogress/nprogress.css'
+
+Vue.use(Vuelidate)
 
 const requireComponent = require.context(
   // Относительный путь до каталога компонентов
